@@ -4,6 +4,7 @@ import Card from '../UI/Card';
 import MealItem from './MealItem/MealItem';
 import classes from './AvailableMeals.module.css';
 import { Review } from '../Review/Review';
+import { Footer } from '../Footer/Footer';
 
 const AvailableMeals = () => {
   const [meals, setMeals] = useState([]);
@@ -77,6 +78,7 @@ const AvailableMeals = () => {
       </Card>
     </section>
     <Review/>
+    <Footer/>
     </>
   );
 };
